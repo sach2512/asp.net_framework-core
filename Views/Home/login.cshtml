@@ -1,0 +1,35 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>register</title>
+</head>
+<body>
+    <div>
+        <h1> i am login page </h1>
+        <h3 style="text-align:center;text-decoration:underline">Login Page</h3>
+        <form action="" method="post">
+            <table align="center">
+                <tr><td>User Id:</td><td><input type="text" id="txtUid" name="txtUid" /></td></tr>
+                <tr><td>Password:</td><td><input type="password" id="txtPwd" name="txtPwd" /></td></tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" id="btnLogin" value="Login" />
+                        <input type="reset" id="btnReset" value="Reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h4 style="text-align:center;color:red">
+            Click here to go to <a href="/Home/Index">Home Page.</a><br />
+            <a href="/home/register">click here to go register</a>
+        </h4>
+    </div>
+</body>
+</html>
